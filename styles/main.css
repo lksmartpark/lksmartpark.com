@@ -1,0 +1,101 @@
+
+body{
+    margin: 0px;
+    padding: 0px;
+    padding-left: 5vw;
+    height: 100vh;
+    width: 100%;
+    background: url("../images/background.jpg") no-repeat;
+    background-size: cover;
+    font-family: 'Lato', sans-serif;
+}
+
+.logo{
+    margin-top: 12vh;
+    width: 30%;
+    height: auto;
+    display: block;
+}
+.content-body{
+margin-top: 8vh;
+    color: #ffffff;
+    line-height: 8vh;
+}
+.content-body .title-bold{
+    color: #F1AA49;
+    font-weight: 700;
+    font-size: 5rem;
+}
+.content-body .title-small{
+    font-weight: 300;
+    font-size: 3rem;
+}
+
+.content-body .description{
+    width: 50%;
+    margin-top: 2%;
+    font-weight: 300;
+    font-size: 2rem;
+    line-height: 4vh;
+}
+
+.content-body .note{
+    margin-top: 2%;
+    font-size: 1.5rem;
+    width: 50%;
+    font-weight: 300;
+    line-height: 3vh;
+}
+
+.content-body .note a{
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+
+    .logo{
+        margin-top: 12vh;
+        width: 75%;
+        height: auto;
+        display: block;
+    }
+    .content-body{
+        margin-top: 8vh;
+        color: #ffffff;
+        line-height: 5vh;
+    }
+    .content-body .title-bold{
+        color: #F1AA49;
+        font-weight: 700;
+        font-size: 8rem;
+    }
+    .content-body .title-small{
+        font-weight: 300;
+        font-size: 4rem;
+    }
+
+    .content-body .description{
+        width: 100%;
+        margin-top: 4%;
+        font-weight: 300;
+        font-size: 3rem;
+        line-height: 3vh;
+    }
+
+    .content-body .note{
+        width: 100%;
+        margin-top: 10%;
+        font-weight: 300;
+        font-size: 2.5rem;
+        line-height: 2.8vh;
+    }
+
+    .content-body .note a{
+        color: #ffffff;
+        text-decoration: underline;
+    }
+
+
+}
